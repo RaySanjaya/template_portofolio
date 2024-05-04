@@ -6,6 +6,7 @@
     "start": "nx serve personal-portfolio",
     "lint": "nx run-many --target=lint",
     "build": "nx build personal-portfolio",
+    "export": "next build && next export",
     "test": "nx run-many --target=test"
   },
   "private": true,
